@@ -1,3 +1,4 @@
+{{-- Voting Booth Page: Displays candidate list and handles vote confirmation modal --}}
 <x-app-layout>
     <x-slot name="header">
         {{ __('Secure Voting Booth') }}

@@ -1,3 +1,4 @@
+{{-- Sidebar Navigation: Includes role-based links and User profile summary --}}
 <div class="sidebar p-3 text-white">
     <a href="{{ route('dashboard') }}"
         class="d-flex align-items-center mb-5 mt-3 px-2 text-decoration-none text-white hover-opacity">
@@ -17,6 +18,7 @@
                 Dashboard
             </a>
         </li>
+        {{-- Voter-specific links --}}
         @if(Auth::user()->role === 'voter')
             <li class="nav-item mb-2">
                 <a href="{{ route('voting.index') }}"
@@ -26,6 +28,7 @@
                 </a>
             </li>
         @endif
+        {{-- Admin-specific management links --}}
         @if(Auth::user()->role === 'admin')
             <li class="nav-item mb-2">
                 <a href="{{ route('admin.users.index') }}"
