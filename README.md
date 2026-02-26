@@ -65,6 +65,3 @@ Detailed documentation projects are available in the repository:
 - **Database Schema**: See `database_explanation.md` for table relationships.
 - **Administrative Workflows**: See `.agents/workflows/voting_workflow.md` for step-by-step management guides.
 
-## 📄 License
-
-This system is open-source software licensed under the [MIT license](LICENSE).
