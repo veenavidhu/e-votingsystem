@@ -1,3 +1,4 @@
+{{-- Admin User Management: Lists voters and admins with search and impersonation feature --}}
 <x-app-layout>
     <x-slot name="header">
         {{ __('User Management') }}
