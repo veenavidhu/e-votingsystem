@@ -64,4 +64,5 @@ After seeding the database, you can use the following accounts to test the syste
 Detailed documentation projects are available in the repository:
 - **Database Schema**: See `database_explanation.md` for table relationships.
 - **Administrative Workflows**: See `.agents/workflows/voting_workflow.md` for step-by-step management guides.
+- **Database Backup**: A zipped SQL dump of the `evoting` database is available at `database/evoting.zip` for quick restoration or deployment.
 
